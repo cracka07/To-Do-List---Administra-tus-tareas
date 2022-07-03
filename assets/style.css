@@ -8,6 +8,11 @@ body {
   align-items: center;
   background: -webkit-linear-gradient(90deg, rgb(248, 8, 8) 10%, rgb(10, 253, 253) 90%);
 }
+Body div img{
+  width: 80px;
+  height: 50px;
+  margin-left: 5px;
+}
 
 #header {
   border:1px solid rgb(194, 197, 12);

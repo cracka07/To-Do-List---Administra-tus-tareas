@@ -1,0 +1,28 @@
+{
+  "homepage": "http://cracka07.github.io/To-Do-List---Administra-tus-tareas",
+  "name": "to-do-list---administra-tus-tareas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DoList.js",
+  "scripts": {
+   
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start": "index.html start",
+    "build":"index.html build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cracka07/To-Do-List---Administra-tus-tareas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cracka07/To-Do-List---Administra-tus-tareas/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
